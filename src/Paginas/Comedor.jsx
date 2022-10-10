@@ -1,16 +1,15 @@
 import React from "react";
-import "../Css/CssApp/Home.css";
+import "../Css/CssApp/Cocinas.css";
 import Mueble1 from "../Img/Muebles/MHome/muebles1.jpg";
 import Mueble2 from "../Img/Muebles/MHome/muebles2.jpg";
 
-function Home() {
+function Comedor() {
   return (
     <div className="home-container-principal">
-      <h3 className="home-h3">Todo en muebles para tu hogar</h3>
-      <div class="card-deck">
+      <div className="card-deck">
         <div class="card">
-          <img className="home-img" src={Mueble1} class="card-img-top" alt="..."></img>
-          <div class="card-body home-card-body">
+          <img src={Mueble1} class="card-img-top" alt="..."></img>
+          <div class="card-body">
             <h5 class="card-title">Card title</h5>
             <p class="card-text">
               This is a longer card with supporting text below as a natural
@@ -23,7 +22,7 @@ function Home() {
           </div>
         </div>
         <div class="card">
-          <img className="home-img" src={Mueble2} class="card-img-top" alt="..."></img>
+          <img src={Mueble2} class="card-img-top" alt="..."></img>
           <div class="card-body">
             <h5 class="card-title">Card title</h5>
             <p class="card-text">
@@ -36,7 +35,7 @@ function Home() {
           </div>
         </div>
         <div class="card">
-          <img className="home-img" src={Mueble1} class="card-img-top" alt="..."></img>
+          <img src="..." class="card-img-top" alt="..."></img>
           <div class="card-body">
             <h5 class="card-title">Card title</h5>
             <p class="card-text">
@@ -140,4 +139,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default Comedor;

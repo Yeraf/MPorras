@@ -4,6 +4,9 @@ import Navbar from "./Components/Navbar";
 import Home from "./Paginas/Home";
 import Contact from "./Paginas/Contact";
 import Nosotros from "./Paginas/About";
+import Comedor from "./Paginas/Comedor";
+import Dormitorio from "./Paginas/Dormitorio";
+import Accesorios from "./Paginas/Accesorios";
 
 function SistemsRoutes() {
   return (
@@ -13,6 +16,9 @@ function SistemsRoutes() {
         <Route index exact path="/" element={<Home/>} />
         <Route exact path="/nosotros" element={<Nosotros/>} />
         <Route exact path="/contacto" element={<Contact/>} />
+        <Route exact path="/cocinasintegradas" element={<Comedor/>} />
+        <Route exact path="/dormitorios" element={<Dormitorio/>} />
+        <Route exact path="/accesorios" element={<Accesorios/>} />
       </Routes>
     </BrowserRouter>
   );

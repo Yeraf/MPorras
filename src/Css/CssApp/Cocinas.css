@@ -1,0 +1,15 @@
+.home-container-principal {
+    width: 96%;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.card-deck {
+    padding-top: 10px;
+}
+
+.home-h3 {
+    margin: 25px 0px 25px 0px;
+    text-align: center;
+    color: #bdc3c7;
+}

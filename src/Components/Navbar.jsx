@@ -30,6 +30,21 @@ function Navbar() {
                 </Link>
             </li>
             <li class="nav-item active">
+                <Link className="nav-link" to="/cocinasintegradas">
+                <b className="">Cocinas Integrales</b>
+                </Link>
+            </li>
+            <li class="nav-item active">
+                <Link className="nav-link" to="/dormitorios">
+                <b className="">Dormitorios</b>
+                </Link>
+            </li>
+            <li class="nav-item active">
+                <Link className="nav-link" to="/accesorios">
+                <b className="">Accesorios</b>
+                </Link>
+            </li>
+            <li class="nav-item active">
                 <Link className="nav-link" to="/nosotros">
                 <b className="">¿Quiénes somos?</b>
                 </Link>
