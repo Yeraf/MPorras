@@ -6,6 +6,13 @@ import Mueble2 from "../Img/Muebles/MHome/muebles2.jpg";
 function Home() {
   return (
     <div className="home-container-principal">
+      <div className="home-portada">
+          <article className="home-article">
+            <h1 className="home-text-portada"><b>Mueblería Porras</b></h1>
+            <h3 className="home-text-portada"><b>Estamos para servirles</b></h3>
+            <h5 className="home-text-portada"><b>Contacto #6060-1010</b></h5>
+          </article>
+      </div>
       <h3 className="home-h3">Todo en muebles para tu hogar</h3>
       <div class="card-deck">
         <div class="card">
@@ -52,7 +59,7 @@ function Home() {
       </div>
       <div class="card-deck">
         <div class="card">
-          <img src="..." class="card-img-top" alt="..."></img>
+          <img className="home-img" src={Mueble1} class="card-img-top" alt="..."></img>
           <div class="card-body">
             <h5 class="card-title">Card title</h5>
             <p class="card-text">
@@ -66,7 +73,7 @@ function Home() {
           </div>
         </div>
         <div class="card">
-          <img src="..." class="card-img-top" alt="..."></img>
+          <img className="home-img" src={Mueble1} class="card-img-top" alt="..."></img>
           <div class="card-body">
             <h5 class="card-title">Card title</h5>
             <p class="card-text">
@@ -79,7 +86,7 @@ function Home() {
           </div>
         </div>
         <div class="card">
-          <img src="..." class="card-img-top" alt="..."></img>
+          <img className="home-img" src={Mueble2} class="card-img-top" alt="..."></img>
           <div class="card-body">
             <h5 class="card-title">Card title</h5>
             <p class="card-text">
@@ -95,7 +102,7 @@ function Home() {
       </div>
       <div class="card-deck">
         <div class="card">
-          <img src="..." class="card-img-top" alt="..."></img>
+          <img className="home-img" src={Mueble2} class="card-img-top" alt="..."></img>
           <div class="card-body">
             <h5 class="card-title">Card title</h5>
             <p class="card-text">
@@ -109,7 +116,7 @@ function Home() {
           </div>
         </div>
         <div class="card">
-          <img src="..." class="card-img-top" alt="..."></img>
+          <img className="home-img" src={Mueble2} class="card-img-top" alt="..."></img>
           <div class="card-body">
             <h5 class="card-title">Card title</h5>
             <p class="card-text">
@@ -122,7 +129,7 @@ function Home() {
           </div>
         </div>
         <div class="card">
-          <img src="..." class="card-img-top" alt="..."></img>
+          <img className="home-img" src={Mueble2} class="card-img-top" alt="..."></img>
           <div class="card-body">
             <h5 class="card-title">Card title</h5>
             <p class="card-text">

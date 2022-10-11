@@ -7,3 +7,24 @@
 .card-deck {
     padding-top: 10px;
 }
+
+.home-portada {
+    width: 95%;
+    margin: auto;
+    height: 500px;
+}
+
+.home-article {
+    width: 100%;
+    height: 500px;
+    margin: auto;
+    background: url('/src/Img/Muebles/MHome/Muebles4.jpg') no-repeat fixed;
+    background-size: cover;
+    padding-top: 140px;
+}
+
+.home-text-portada {
+    color: #000;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
