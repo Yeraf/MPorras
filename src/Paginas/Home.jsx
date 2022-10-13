@@ -2,21 +2,28 @@ import React from "react";
 import "../Css/CssApp/Home.css";
 import Mueble1 from "../Img/Muebles/MHome/muebles1.jpg";
 import Mueble2 from "../Img/Muebles/MHome/muebles2.jpg";
+import Portada from "../Img/Muebles/MHome/muebles_modernos.jpg";
 
 function Home() {
   return (
     <div className="home-container-principal">
       <div className="home-portada">
-          <article className="home-article">
-            <h1 className="home-text-portada"><b>Mueblería Porras</b></h1>
-            <h3 className="home-text-portada"><b>Estamos para servirles</b></h3>
-            <h5 className="home-text-portada"><b>Contacto #6060-1010</b></h5>
-          </article>
+        <img className="home-img-portada" src={Portada}></img>
+          <div className="home-text-portada">
+            <h1><b>Mueblería Porras</b></h1>
+            <h3><b>Estamos para servirles</b></h3>
+            <h5><b>Contacto #6060-1010</b></h5>
+          </div>
       </div>
       <h3 className="home-h3">Todo en muebles para tu hogar</h3>
       <div class="card-deck">
         <div class="card">
-          <img className="home-img" src={Mueble1} class="card-img-top" alt="..."></img>
+          <img
+            className="home-img"
+            src={Mueble1}
+            class="card-img-top"
+            alt="..."
+          ></img>
           <div class="card-body home-card-body">
             <h5 class="card-title">Card title</h5>
             <p class="card-text">
@@ -30,7 +37,12 @@ function Home() {
           </div>
         </div>
         <div class="card">
-          <img className="home-img" src={Mueble2} class="card-img-top" alt="..."></img>
+          <img
+            className="home-img"
+            src={Mueble2}
+            class="card-img-top"
+            alt="..."
+          ></img>
           <div class="card-body">
             <h5 class="card-title">Card title</h5>
             <p class="card-text">
@@ -43,7 +55,12 @@ function Home() {
           </div>
         </div>
         <div class="card">
-          <img className="home-img" src={Mueble1} class="card-img-top" alt="..."></img>
+          <img
+            className="home-img"
+            src={Mueble1}
+            class="card-img-top"
+            alt="..."
+          ></img>
           <div class="card-body">
             <h5 class="card-title">Card title</h5>
             <p class="card-text">
@@ -59,7 +76,12 @@ function Home() {
       </div>
       <div class="card-deck">
         <div class="card">
-          <img className="home-img" src={Mueble1} class="card-img-top" alt="..."></img>
+          <img
+            className="home-img"
+            src={Mueble1}
+            class="card-img-top"
+            alt="..."
+          ></img>
           <div class="card-body">
             <h5 class="card-title">Card title</h5>
             <p class="card-text">
@@ -73,7 +95,12 @@ function Home() {
           </div>
         </div>
         <div class="card">
-          <img className="home-img" src={Mueble1} class="card-img-top" alt="..."></img>
+          <img
+            className="home-img"
+            src={Mueble1}
+            class="card-img-top"
+            alt="..."
+          ></img>
           <div class="card-body">
             <h5 class="card-title">Card title</h5>
             <p class="card-text">
@@ -86,7 +113,12 @@ function Home() {
           </div>
         </div>
         <div class="card">
-          <img className="home-img" src={Mueble2} class="card-img-top" alt="..."></img>
+          <img
+            className="home-img"
+            src={Mueble2}
+            class="card-img-top"
+            alt="..."
+          ></img>
           <div class="card-body">
             <h5 class="card-title">Card title</h5>
             <p class="card-text">
@@ -102,7 +134,12 @@ function Home() {
       </div>
       <div class="card-deck">
         <div class="card">
-          <img className="home-img" src={Mueble2} class="card-img-top" alt="..."></img>
+          <img
+            className="home-img"
+            src={Mueble2}
+            class="card-img-top"
+            alt="..."
+          ></img>
           <div class="card-body">
             <h5 class="card-title">Card title</h5>
             <p class="card-text">
@@ -116,7 +153,12 @@ function Home() {
           </div>
         </div>
         <div class="card">
-          <img className="home-img" src={Mueble2} class="card-img-top" alt="..."></img>
+          <img
+            className="home-img"
+            src={Mueble2}
+            class="card-img-top"
+            alt="..."
+          ></img>
           <div class="card-body">
             <h5 class="card-title">Card title</h5>
             <p class="card-text">
@@ -129,7 +171,12 @@ function Home() {
           </div>
         </div>
         <div class="card">
-          <img className="home-img" src={Mueble2} class="card-img-top" alt="..."></img>
+          <img
+            className="home-img"
+            src={Mueble2}
+            class="card-img-top"
+            alt="..."
+          ></img>
           <div class="card-body">
             <h5 class="card-title">Card title</h5>
             <p class="card-text">
