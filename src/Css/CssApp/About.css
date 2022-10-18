@@ -9,12 +9,13 @@
 }
 
 .article-about {
+    width: 80%;
     padding: 10px 10px 10px 10px;
-    display: flex;
+    /* display: flex; */
 }
 
 .about-div-text {
-    padding: 20px 20px 20px 20px;
+    padding: 0px 10px 10px 0px;
     text-align: justify;
     margin: auto;
 }
@@ -23,9 +24,3 @@
     width: 400px;
     height: 450px;
 }
-
-.about-video {
-    width: 300;
-    height: 450px;
-}
-

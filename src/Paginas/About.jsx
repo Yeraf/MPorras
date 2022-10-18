@@ -6,11 +6,19 @@ function About() {
   return (
     <div className="container about-complete">
       <h3 className="about-h3-title">Quiénes somos?</h3>
-      <div className="container about-div-all">
+      <div className="about-div-all">
         <article className="container article-about">
-          <img className="img-about-firts" src={image}></img>
+          <div className="card card-titles-div">
+            <img src={image} className="card-img-top" alt="..."></img>
+            <div class="card-body">
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+          </div>
           <div className="about-div-text">
-            <h3>Mueblería Porras</h3>
+            <h3 className="about-h3-title">Mueblería Porras</h3>
             <p>
               Es un hecho establecido hace demasiado tiempo que un lector se
               distraerá con el contenido del texto de un sitio mientras que mira
@@ -29,10 +37,10 @@ function About() {
           </div>
         </article>
       </div>
-      <div className="container about-div-all">
+      <div className="about-div-all">
         <article className="container article-about">
           <div className="about-div-text">
-            <h3>Mueblería Porras</h3>
+            <h3 className="about-h3-title">Mueblería Porras</h3>
             <p>
               Es un hecho establecido hace demasiado tiempo que un lector se
               distraerá con el contenido del texto de un sitio mientras que mira
@@ -49,9 +57,8 @@ function About() {
               y cosas por el estilo).
             </p>
           </div>
-          <iframe className="about-video"
-            width="2000"
-            height="400"
+          <iframe
+            className="about-video"
             src="https://www.youtube.com/embed/y5eT-mvXFOM"
             title="YouTube video player"
             frameborder="0"
