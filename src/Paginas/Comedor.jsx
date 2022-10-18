@@ -2,10 +2,13 @@ import React from "react";
 import "../Css/CssApp/Cocinas.css";
 import Mueble1 from "../Img/Muebles/MHome/muebles1.jpg";
 import Mueble2 from "../Img/Muebles/MHome/muebles2.jpg";
+import Mueble3 from "../Img/Muebles/MHome/Muebles4.jpg";
+import Mueble4 from "../Img/Muebles/MHome/Muebles.jpg";
 
 function Comedor() {
   return (
     <div className="home-container-principal">
+      <h3 className="home-h3">Todo en cocinas integradas</h3>
       <div className="card-deck">
         <div class="card">
           <img src={Mueble1} class="card-img-top" alt="..."></img>
@@ -35,7 +38,7 @@ function Comedor() {
           </div>
         </div>
         <div class="card">
-          <img src="..." class="card-img-top" alt="..."></img>
+          <img src={Mueble3} class="card-img-top" alt="..."></img>
           <div class="card-body">
             <h5 class="card-title">Card title</h5>
             <p class="card-text">
@@ -51,7 +54,7 @@ function Comedor() {
       </div>
       <div class="card-deck">
         <div class="card">
-          <img src="..." class="card-img-top" alt="..."></img>
+          <img src={Mueble4} class="card-img-top" alt="..."></img>
           <div class="card-body">
             <h5 class="card-title">Card title</h5>
             <p class="card-text">
@@ -65,7 +68,7 @@ function Comedor() {
           </div>
         </div>
         <div class="card">
-          <img src="..." class="card-img-top" alt="..."></img>
+          <img src={Mueble2} class="card-img-top" alt="..."></img>
           <div class="card-body">
             <h5 class="card-title">Card title</h5>
             <p class="card-text">
@@ -78,7 +81,7 @@ function Comedor() {
           </div>
         </div>
         <div class="card">
-          <img src="..." class="card-img-top" alt="..."></img>
+          <img src={Mueble3} class="card-img-top" alt="..."></img>
           <div class="card-body">
             <h5 class="card-title">Card title</h5>
             <p class="card-text">
@@ -94,7 +97,7 @@ function Comedor() {
       </div>
       <div class="card-deck">
         <div class="card">
-          <img src="..." class="card-img-top" alt="..."></img>
+          <img src={Mueble4} class="card-img-top" alt="..."></img>
           <div class="card-body">
             <h5 class="card-title">Card title</h5>
             <p class="card-text">
@@ -108,7 +111,7 @@ function Comedor() {
           </div>
         </div>
         <div class="card">
-          <img src="..." class="card-img-top" alt="..."></img>
+          <img src={Mueble1} class="card-img-top" alt="..."></img>
           <div class="card-body">
             <h5 class="card-title">Card title</h5>
             <p class="card-text">
@@ -121,7 +124,7 @@ function Comedor() {
           </div>
         </div>
         <div class="card">
-          <img src="..." class="card-img-top" alt="..."></img>
+          <img src={Mueble3} class="card-img-top" alt="..."></img>
           <div class="card-body">
             <h5 class="card-title">Card title</h5>
             <p class="card-text">

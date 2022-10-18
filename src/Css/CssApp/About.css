@@ -1,0 +1,24 @@
+.about-div-all {
+    margin-top: 20px;
+    border-radius: 10px;
+    
+}
+
+.about-h3-title {
+    text-align: center;
+    padding: 30px 0px 30px 0px;
+}
+
+.article-about {
+    display: flex;
+}
+
+.img-about-firts {
+    width: 400px;
+    height: 450px;
+}
+
+.about-div-text {
+    margin: auto;
+    background-color: blue;
+}

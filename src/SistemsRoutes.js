@@ -7,6 +7,7 @@ import Nosotros from "./Paginas/About";
 import Comedor from "./Paginas/Comedor";
 import Dormitorio from "./Paginas/Dormitorio";
 import Accesorios from "./Paginas/Accesorios";
+import Footer from "./Components/Footer";
 
 function SistemsRoutes() {
   return (
@@ -20,6 +21,7 @@ function SistemsRoutes() {
         <Route exact path="/dormitorios" element={<Dormitorio/>} />
         <Route exact path="/accesorios" element={<Accesorios/>} />
       </Routes>
+      <Footer/>
     </BrowserRouter>
   );
 }
