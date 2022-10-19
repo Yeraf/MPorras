@@ -1,6 +1,6 @@
 import "../Css/CssApp/About.css";
 import React from "react";
-import image from "../Img/Muebles/MHome/cocinas-madera.jpg";
+import image from "../Img/Muebles/MHome/Muebles4.jpg";
 
 function About() {
   return (
@@ -57,14 +57,28 @@ function About() {
               y cosas por el estilo).
             </p>
           </div>
-          <iframe
-            className="about-video"
-            src="https://www.youtube.com/embed/y5eT-mvXFOM"
-            title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
-          ></iframe>
+          <div className="container">
+          <div className="div-video">
+            <iframe
+              className="card-title about-video"
+              src="https://www.youtube.com/embed/J61mtatKT1I"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+            </div>
+            <div className="div-video">
+            <iframe
+              className="card-title about-video"
+              src="https://www.youtube.com/embed/J61mtatKT1I"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+            </div>
+          </div>
         </article>
       </div>
     </div>
