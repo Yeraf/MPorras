@@ -3,10 +3,12 @@ import "../Css/CssApp/Home.css";
 import Mueble1 from "../Img/Muebles/MHome/muebles1.jpg";
 import Mueble2 from "../Img/Muebles/MHome/muebles2.jpg";
 import Portada from "../Img/Muebles/MHome/muebles_modernos.jpg";
+import IconoWhatsapp from "../Components/IconoWhatsapp";
 
 function Home() {
   return (
     <div className="home-container-principal">
+      <IconoWhatsapp></IconoWhatsapp>
       <div className="home-portada">
         <img className="home-img-portada" src={Portada}></img>
           <div className="home-text-portada">
