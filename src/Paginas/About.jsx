@@ -57,29 +57,31 @@ function About() {
               y cosas por el estilo).
             </p>
           </div>
-          <div className="container">
-          <div className="div-video">
-            <iframe
-              className="card-title about-video"
-              src="https://www.youtube.com/embed/J61mtatKT1I"
-              title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
-            ></iframe>
-            </div>
+        </article>
+        <div className="container div-about-videos">
             <div className="div-video">
-            <iframe
-              className="card-title about-video"
-              src="https://www.youtube.com/embed/J61mtatKT1I"
-              title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
-            ></iframe>
+              <iframe
+                className="card-title about-video"
+                src="https://www.youtube.com/embed/J61mtatKT1I"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
             </div>
           </div>
-        </article>
+          <div className="container div-about-videos">
+            <div className="div-video">
+              <iframe
+                className="card-title about-video"
+                src="https://www.youtube.com/embed/J61mtatKT1I"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+            </div>
+          </div>
       </div>
     </div>
   );
