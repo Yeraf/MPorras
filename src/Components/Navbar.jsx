@@ -26,32 +26,32 @@ function Navbar() {
           <ul class="navbar-nav mx-auto">
             <li class="nav-item active">
                 <Link className="nav-link" to="/">
-                <b className="">Muebles</b>
+                <b className="b-navbar">Muebles</b>
                 </Link>
             </li>
             <li class="nav-item active">
                 <Link className="nav-link" to="/cocinasintegradas">
-                <b className="">Cocinas Integrales</b>
+                <b className="b-navbar">Cocinas Integrales</b>
                 </Link>
             </li>
             <li class="nav-item active">
                 <Link className="nav-link" to="/dormitorios">
-                <b className="">Dormitorios</b>
+                <b className="b-navbar">Dormitorios</b>
                 </Link>
             </li>
             <li class="nav-item active">
                 <Link className="nav-link" to="/accesorios">
-                <b className="">Accesorios</b>
+                <b className="b-navbar">Accesorios</b>
                 </Link>
             </li>
             <li class="nav-item active">
                 <Link className="nav-link" to="/nosotros">
-                <b className="">¿Quiénes somos?</b>
+                <b className="b-navbar">¿Quiénes somos?</b>
                 </Link>
             </li>
             <li class="nav-item active">
                 <Link className="nav-link" to="/contacto">
-                <b className="">Contáctenos</b>
+                <b className="b-navbar">Contáctenos</b>
                 </Link>
             </li>
           </ul>

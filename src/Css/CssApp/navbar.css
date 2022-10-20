@@ -26,4 +26,10 @@
     margin-right: 100px;
 }
 
+.b-navbar:hover {
+    padding: 9px;
+    border-radius: 10px;
+    transition: 0.2s;
+    background-color: rgb(7, 47, 70);
+}
 

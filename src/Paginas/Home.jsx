@@ -4,6 +4,7 @@ import Mueble1 from "../Img/Muebles/MHome/muebles1.jpg";
 import Mueble2 from "../Img/Muebles/MHome/muebles2.jpg";
 import Portada from "../Img/Muebles/MHome/muebles_modernos.jpg";
 import IconoWhatsapp from "../Components/IconoWhatsapp";
+import Bounce from 'react-reveal/Bounce';
 
 function Home() {
   return (
@@ -12,10 +13,18 @@ function Home() {
       <div className="home-portada">
         <img className="home-img-portada" src={Portada}></img>
           <div className="home-text-portada">
+            <Bounce right>
             <h1><b>Mueblería Porras</b></h1>
+            </Bounce>
+            <Bounce left>
             <h3><b>Estamos para servirles</b></h3>
+            </Bounce>
+            <Bounce right>
             <h5><b>Contacto</b></h5>
+            </Bounce>
+            <Bounce left>
             <h5><b>6060-1010</b></h5>
+            </Bounce>
           </div>
       </div>
       <h3 className="home-h3">Todo en muebles para tu hogar</h3>
