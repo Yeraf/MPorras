@@ -2,11 +2,12 @@ import "../Css/CssApp/About.css";
 import React from "react";
 import image from "../Img/Muebles/MHome/Muebles4.jpg";
 import IconoWhatsapp from "../Components/IconoWhatsapp";
+import Aboutimg from "../Img/Muebles/MHome/muebles2.jpg";
 
 function About() {
   return (
     <div className="container about-complete">
-      <IconoWhatsapp/>
+      <IconoWhatsapp />
       <h3 className="about-h3-title">Quiénes somos?</h3>
       <div className="about-div-all">
         <article className="container article-about">
@@ -27,8 +28,10 @@ function About() {
               su diseño. El punto de usar Lorem Ipsum es que tiene una
               distribución más o menos normal de las letras, al contrario de
               usar textos como por ejemplo "Contenido aquí, contenido aquí".
-              Estos textos hacen parecerlo un español que se puede leer. Muchos
-              paquetes de autoedición y editores de páginas web usan el Lorem
+            </p>
+            <h3 className="about-h3-title">Mueblería Porras</h3>
+            <p>
+              Lorem
               Ipsum como su texto por defecto, y al hacer una búsqueda de "Lorem
               Ipsum" va a dar por resultado muchos sitios web que usan este
               texto si se encuentran en estado de desarrollo. Muchas versiones
@@ -46,44 +49,44 @@ function About() {
             <p>
               Es un hecho establecido hace demasiado tiempo que un lector se
               distraerá con el contenido del texto de un sitio mientras que mira
-              su diseño. El punto de usar Lorem Ipsum es que tiene una
-              distribución más o menos normal de las letras, al contrario de
-              usar textos como por ejemplo "Contenido aquí, contenido aquí".
+              su diseño. El punto de usar Lorem Ipsum es que tiene ...
+            </p>
+            <div>
+              <img className="container img-about" src={Aboutimg}></img>
+            </div>
+            <p>
               Estos textos hacen parecerlo un español que se puede leer. Muchos
               paquetes de autoedición y editores de páginas web usan el Lorem
               Ipsum como su texto por defecto, y al hacer una búsqueda de "Lorem
-              Ipsum" va a dar por resultado muchos sitios web que usan este
-              texto si se encuentran en estado de desarrollo. Muchas versiones
-              han evolucionado a través de los años, algunas veces por
-              accidente, otras veces a propósito (por ejemplo insertándole humor
+              Ipsum" (por ejemplo insertándole humor
               y cosas por el estilo).
             </p>
           </div>
         </article>
         <div className="container div-about-videos">
-            <div className="div-video">
-              <iframe
-                className="card-title about-video"
-                src="https://www.youtube.com/embed/J61mtatKT1I"
-                title="YouTube video player"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen
-              ></iframe>
-            </div>
+          <div className="div-video">
+            <iframe
+              className="card-title about-video"
+              src="https://www.youtube.com/embed/J61mtatKT1I"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
           </div>
-          <div className="container div-about-videos">
-            <div className="div-video">
-              <iframe
-                className="card-title about-video"
-                src="https://www.youtube.com/embed/J61mtatKT1I"
-                title="YouTube video player"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen
-              ></iframe>
-            </div>
+        </div>
+        <div className="container div-about-videos">
+          <div className="div-video">
+            <iframe
+              className="card-title about-video"
+              src="https://www.youtube.com/embed/J61mtatKT1I"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
           </div>
+        </div>
       </div>
     </div>
   );
