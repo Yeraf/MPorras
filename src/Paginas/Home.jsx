@@ -8,7 +8,7 @@ import IconoWhatsapp from "../Components/IconoWhatsapp";
 function Home() {
   return (
     <div className="home-container-principal">
-      <IconoWhatsapp></IconoWhatsapp>
+      <IconoWhatsapp/>
       <div className="home-portada">
         <img className="home-img-portada" src={Portada}></img>
           <div className="home-text-portada">

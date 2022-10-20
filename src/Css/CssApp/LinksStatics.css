@@ -1,0 +1,17 @@
+.div-links {
+    margin: 9px 0px 9px 0px;
+    text-align: center;
+}
+
+.div-links-complete {
+    display: inline;
+    margin-left: 10px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: #fff;
+}
+
+.text-decoretion-link {
+    text-decoration: none;
+}

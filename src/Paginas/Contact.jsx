@@ -4,10 +4,12 @@ import '../Css/CssApp/Contact.css';
 import Face from '../Img/Logos/facebook.png';
 import Whatsapp from '../Img/Logos/whatsapp.png';
 import Email from '../Img/Logos/envelope.png';
+import IconoWhatsapp from "../Components/IconoWhatsapp";
 
 function Contact() {
   return (
     <article className='article-img'>
+      <IconoWhatsapp/>
         <img className='about-img' src={Madera1}></img>
         <div className="home-text-portada">
             <h3><b>Mueblería Porras</b></h3>

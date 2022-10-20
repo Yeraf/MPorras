@@ -4,10 +4,12 @@ import Mueble1 from "../Img/Muebles/MHome/muebles1.jpg";
 import Mueble2 from "../Img/Muebles/MHome/muebles2.jpg";
 import Mueble3 from "../Img/Muebles/MHome/Muebles4.jpg";
 import Mueble4 from "../Img/Muebles/MHome/Muebles.jpg";
+import IconoWhatsapp from "../Components/IconoWhatsapp";
 
 function Comedor() {
   return (
     <div className="home-container-principal">
+      <IconoWhatsapp/>
       <h3 className="home-h3">Todo en cocinas integradas</h3>
       <div className="card-deck">
         <div class="card">

@@ -1,10 +1,12 @@
 import "../Css/CssApp/About.css";
 import React from "react";
 import image from "../Img/Muebles/MHome/Muebles4.jpg";
+import IconoWhatsapp from "../Components/IconoWhatsapp";
 
 function About() {
   return (
     <div className="container about-complete">
+      <IconoWhatsapp/>
       <h3 className="about-h3-title">Quiénes somos?</h3>
       <div className="about-div-all">
         <article className="container article-about">
