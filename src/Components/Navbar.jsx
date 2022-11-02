@@ -22,7 +22,7 @@ function Navbar() {
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div className="collapse navbar-collapse" id="navbarNav">
+        <div className="collapse navbar-collapse mx-auto" id="navbarNav">
           <ul class="navbar-nav mx-auto">
             <li class="nav-item active">
                 <Link className="nav-link" to="/">
